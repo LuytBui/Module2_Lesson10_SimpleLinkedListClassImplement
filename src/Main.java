@@ -22,5 +22,12 @@ public class Main {
         list.remove();
         list.remove();
         list.printList("remove some elements");
+
+        // lam viec voi KDL nguyen thuy
+        MyLinkedList<Integer> list2 = new MyLinkedList<>();
+        list2.add(new Integer(10));
+        list2.add(new Integer(20));
+        list2.add(new Integer(30));
+        list2.printList("List of Integers");
     }
 }

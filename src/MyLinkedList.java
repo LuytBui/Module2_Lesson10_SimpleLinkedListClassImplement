@@ -6,7 +6,7 @@ public class MyLinkedList<E> {
     }
 
     public void remove(int index){
-        if (index <0 || index > size-1)
+        if (index <0 || index > size)
             return;
         MyNode before = get(index - 1);
         MyNode after = get(index + 1);
